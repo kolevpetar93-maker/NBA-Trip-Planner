@@ -1,0 +1,167 @@
+[
+    {
+        "id": "1001",
+        "datum": "2026-10-22",
+        "vreme": "19:00",
+        "domacaEkipa": "Los Angeles Lakers",
+        "gostujocaEkipa": "Golden State Warriors",
+        "dvorana": "Crypto.com Arena",
+        "mesto": "Los Angeles",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1002",
+        "datum": "2026-10-23",
+        "vreme": "19:00",
+        "domacaEkipa": "Boston Celtics",
+        "gostujocaEkipa": "New York Knicks",
+        "dvorana": "TD Garden",
+        "mesto": "Boston",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1003",
+        "datum": "2026-10-24",
+        "vreme": "19:00",
+        "domacaEkipa": "Chicago Bulls",
+        "gostujocaEkipa": "Miami Heat",
+        "dvorana": "United Center",
+        "mesto": "Chicago",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1004",
+        "datum": "2026-10-25",
+        "vreme": "19:00",
+        "domacaEkipa": "Dallas Mavericks",
+        "gostujocaEkipa": "Denver Nuggets",
+        "dvorana": "American Airlines Center",
+        "mesto": "Dallas",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1005",
+        "datum": "2026-10-26",
+        "vreme": "19:00",
+        "domacaEkipa": "Phoenix Suns",
+        "gostujocaEkipa": "Milwaukee Bucks",
+        "dvorana": "Mortgage Matchup Center",
+        "mesto": "Phoenix",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1006",
+        "datum": "2026-10-27",
+        "vreme": "19:00",
+        "domacaEkipa": "Cleveland Cavaliers",
+        "gostujocaEkipa": "Philadelphia 76ers",
+        "dvorana": "Rocket Arena",
+        "mesto": "Cleveland",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1007",
+        "datum": "2026-10-28",
+        "vreme": "19:00",
+        "domacaEkipa": "Sacramento Kings",
+        "gostujocaEkipa": "Toronto Raptors",
+        "dvorana": "Golden 1 Center",
+        "mesto": "Sacramento",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1008",
+        "datum": "2026-10-29",
+        "vreme": "19:00",
+        "domacaEkipa": "Detroit Pistons",
+        "gostujocaEkipa": "Los Angeles Lakers",
+        "dvorana": "Little Caesars Arena",
+        "mesto": "Detroit",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1009",
+        "datum": "2026-10-30",
+        "vreme": "19:00",
+        "domacaEkipa": "Golden State Warriors",
+        "gostujocaEkipa": "Boston Celtics",
+        "dvorana": "Chase Center",
+        "mesto": "San Francisco",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1010",
+        "datum": "2026-10-31",
+        "vreme": "19:00",
+        "domacaEkipa": "New York Knicks",
+        "gostujocaEkipa": "Chicago Bulls",
+        "dvorana": "Madison Square Garden",
+        "mesto": "New York",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1011",
+        "datum": "2026-11-01",
+        "vreme": "19:00",
+        "domacaEkipa": "Miami Heat",
+        "gostujocaEkipa": "Dallas Mavericks",
+        "dvorana": "Kaseya Center",
+        "mesto": "Miami",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1012",
+        "datum": "2026-11-02",
+        "vreme": "19:00",
+        "domacaEkipa": "Denver Nuggets",
+        "gostujocaEkipa": "Phoenix Suns",
+        "dvorana": "Ball Arena",
+        "mesto": "Denver",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1013",
+        "datum": "2026-11-03",
+        "vreme": "19:00",
+        "domacaEkipa": "Milwaukee Bucks",
+        "gostujocaEkipa": "Cleveland Cavaliers",
+        "dvorana": "Fiserv Forum",
+        "mesto": "Milwaukee",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1014",
+        "datum": "2026-11-04",
+        "vreme": "19:00",
+        "domacaEkipa": "Philadelphia 76ers",
+        "gostujocaEkipa": "Sacramento Kings",
+        "dvorana": "Xfinity Mobile Arena",
+        "mesto": "Philadelphia",
+        "status": "scheduled",
+        "rezultat": ""
+    },
+    {
+        "id": "1015",
+        "datum": "2026-11-05",
+        "vreme": "19:00",
+        "domacaEkipa": "Toronto Raptors",
+        "gostujocaEkipa": "Detroit Pistons",
+        "dvorana": "Scotiabank Arena",
+        "mesto": "Toronto",
+        "status": "scheduled",
+        "rezultat": ""
+    }
+]

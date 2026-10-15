@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tekme>
+    <tekma id="1001">
+        <domacaEkipaId>1</domacaEkipaId>
+        <gostujocaEkipaId>2</gostujocaEkipaId>
+        <dvoranaId>1</dvoranaId>
+        <datum>2026-10-22</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1002">
+        <domacaEkipaId>3</domacaEkipaId>
+        <gostujocaEkipaId>4</gostujocaEkipaId>
+        <dvoranaId>3</dvoranaId>
+        <datum>2026-10-23</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1003">
+        <domacaEkipaId>5</domacaEkipaId>
+        <gostujocaEkipaId>6</gostujocaEkipaId>
+        <dvoranaId>5</dvoranaId>
+        <datum>2026-10-24</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1004">
+        <domacaEkipaId>7</domacaEkipaId>
+        <gostujocaEkipaId>8</gostujocaEkipaId>
+        <dvoranaId>7</dvoranaId>
+        <datum>2026-10-25</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1005">
+        <domacaEkipaId>9</domacaEkipaId>
+        <gostujocaEkipaId>10</gostujocaEkipaId>
+        <dvoranaId>9</dvoranaId>
+        <datum>2026-10-26</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1006">
+        <domacaEkipaId>11</domacaEkipaId>
+        <gostujocaEkipaId>12</gostujocaEkipaId>
+        <dvoranaId>11</dvoranaId>
+        <datum>2026-10-27</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1007">
+        <domacaEkipaId>13</domacaEkipaId>
+        <gostujocaEkipaId>14</gostujocaEkipaId>
+        <dvoranaId>13</dvoranaId>
+        <datum>2026-10-28</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1008">
+        <domacaEkipaId>15</domacaEkipaId>
+        <gostujocaEkipaId>1</gostujocaEkipaId>
+        <dvoranaId>15</dvoranaId>
+        <datum>2026-10-29</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1009">
+        <domacaEkipaId>2</domacaEkipaId>
+        <gostujocaEkipaId>3</gostujocaEkipaId>
+        <dvoranaId>2</dvoranaId>
+        <datum>2026-10-30</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1010">
+        <domacaEkipaId>4</domacaEkipaId>
+        <gostujocaEkipaId>5</gostujocaEkipaId>
+        <dvoranaId>4</dvoranaId>
+        <datum>2026-10-31</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1011">
+        <domacaEkipaId>6</domacaEkipaId>
+        <gostujocaEkipaId>7</gostujocaEkipaId>
+        <dvoranaId>6</dvoranaId>
+        <datum>2026-11-01</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1012">
+        <domacaEkipaId>8</domacaEkipaId>
+        <gostujocaEkipaId>9</gostujocaEkipaId>
+        <dvoranaId>8</dvoranaId>
+        <datum>2026-11-02</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1013">
+        <domacaEkipaId>10</domacaEkipaId>
+        <gostujocaEkipaId>11</gostujocaEkipaId>
+        <dvoranaId>10</dvoranaId>
+        <datum>2026-11-03</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1014">
+        <domacaEkipaId>12</domacaEkipaId>
+        <gostujocaEkipaId>13</gostujocaEkipaId>
+        <dvoranaId>12</dvoranaId>
+        <datum>2026-11-04</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+
+    <tekma id="1015">
+        <domacaEkipaId>14</domacaEkipaId>
+        <gostujocaEkipaId>15</gostujocaEkipaId>
+        <dvoranaId>14</dvoranaId>
+        <datum>2026-11-05</datum>
+        <vreme>19:00</vreme>
+        <status>scheduled</status>
+        <rezultat/>
+    </tekma>
+</tekme>

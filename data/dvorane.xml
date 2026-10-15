@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dvorane>
+    <dvorana id="1">
+        <ime>Crypto.com Arena</ime>
+        <mesto>Los Angeles</mesto>
+        <naslov>1111 S Figueroa St, Los Angeles, CA</naslov>
+        <kapaciteta>18997</kapaciteta>
+        <latitude>34.043</latitude>
+        <longitude>-118.2673</longitude>
+    </dvorana>
+
+    <dvorana id="2">
+        <ime>Chase Center</ime>
+        <mesto>San Francisco</mesto>
+        <naslov>1 Warriors Way, San Francisco, CA</naslov>
+        <kapaciteta>18064</kapaciteta>
+        <latitude>37.768</latitude>
+        <longitude>-122.3877</longitude>
+    </dvorana>
+
+    <dvorana id="3">
+        <ime>TD Garden</ime>
+        <mesto>Boston</mesto>
+        <naslov>100 Legends Way, Boston, MA</naslov>
+        <kapaciteta>19156</kapaciteta>
+        <latitude>42.3662</latitude>
+        <longitude>-71.0621</longitude>
+    </dvorana>
+
+    <dvorana id="4">
+        <ime>Madison Square Garden</ime>
+        <mesto>New York</mesto>
+        <naslov>4 Pennsylvania Plaza, New York, NY</naslov>
+        <kapaciteta>19812</kapaciteta>
+        <latitude>40.7505</latitude>
+        <longitude>-73.9934</longitude>
+    </dvorana>
+
+    <dvorana id="5">
+        <ime>United Center</ime>
+        <mesto>Chicago</mesto>
+        <naslov>1901 W Madison St, Chicago, IL</naslov>
+        <kapaciteta>20917</kapaciteta>
+        <latitude>41.8807</latitude>
+        <longitude>-87.6742</longitude>
+    </dvorana>
+
+    <dvorana id="6">
+        <ime>Kaseya Center</ime>
+        <mesto>Miami</mesto>
+        <naslov>601 Biscayne Blvd, Miami, FL</naslov>
+        <kapaciteta>19600</kapaciteta>
+        <latitude>25.7814</latitude>
+        <longitude>-80.187</longitude>
+    </dvorana>
+
+    <dvorana id="7">
+        <ime>American Airlines Center</ime>
+        <mesto>Dallas</mesto>
+        <naslov>2500 Victory Ave, Dallas, TX</naslov>
+        <kapaciteta>19200</kapaciteta>
+        <latitude>32.7905</latitude>
+        <longitude>-96.8103</longitude>
+    </dvorana>
+
+    <dvorana id="8">
+        <ime>Ball Arena</ime>
+        <mesto>Denver</mesto>
+        <naslov>1000 Chopper Cir, Denver, CO</naslov>
+        <kapaciteta>19520</kapaciteta>
+        <latitude>39.7487</latitude>
+        <longitude>-105.0077</longitude>
+    </dvorana>
+
+    <dvorana id="9">
+        <ime>Mortgage Matchup Center</ime>
+        <mesto>Phoenix</mesto>
+        <naslov>201 E Jefferson St, Phoenix, AZ</naslov>
+        <kapaciteta>17071</kapaciteta>
+        <latitude>33.4457</latitude>
+        <longitude>-112.0712</longitude>
+    </dvorana>
+
+    <dvorana id="10">
+        <ime>Fiserv Forum</ime>
+        <mesto>Milwaukee</mesto>
+        <naslov>1111 Vel R Phillips Ave, Milwaukee, WI</naslov>
+        <kapaciteta>17341</kapaciteta>
+        <latitude>43.0451</latitude>
+        <longitude>-87.9172</longitude>
+    </dvorana>
+
+    <dvorana id="11">
+        <ime>Rocket Arena</ime>
+        <mesto>Cleveland</mesto>
+        <naslov>1 Center Court, Cleveland, OH</naslov>
+        <kapaciteta>19432</kapaciteta>
+        <latitude>41.4965</latitude>
+        <longitude>-81.6882</longitude>
+    </dvorana>
+
+    <dvorana id="12">
+        <ime>Xfinity Mobile Arena</ime>
+        <mesto>Philadelphia</mesto>
+        <naslov>3601 S Broad St, Philadelphia, PA</naslov>
+        <kapaciteta>20478</kapaciteta>
+        <latitude>39.9012</latitude>
+        <longitude>-75.172</longitude>
+    </dvorana>
+
+    <dvorana id="13">
+        <ime>Golden 1 Center</ime>
+        <mesto>Sacramento</mesto>
+        <naslov>500 David J Stern Walk, Sacramento, CA</naslov>
+        <kapaciteta>17608</kapaciteta>
+        <latitude>38.5802</latitude>
+        <longitude>-121.4997</longitude>
+    </dvorana>
+
+    <dvorana id="14">
+        <ime>Scotiabank Arena</ime>
+        <mesto>Toronto</mesto>
+        <naslov>40 Bay St, Toronto, ON</naslov>
+        <kapaciteta>19800</kapaciteta>
+        <latitude>43.6435</latitude>
+        <longitude>-79.3791</longitude>
+    </dvorana>
+
+    <dvorana id="15">
+        <ime>Little Caesars Arena</ime>
+        <mesto>Detroit</mesto>
+        <naslov>2645 Woodward Ave, Detroit, MI</naslov>
+        <kapaciteta>20332</kapaciteta>
+        <latitude>42.341</latitude>
+        <longitude>-83.055</longitude>
+    </dvorana>
+</dvorane>

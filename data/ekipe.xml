@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ekipe>
+    <ekipa id="1">
+        <ime>Los Angeles Lakers</ime>
+        <kratica>LAL</kratica>
+        <mesto>Los Angeles</mesto>
+        <konferenca>West</konferenca>
+    </ekipa>
+
+    <ekipa id="2">
+        <ime>Golden State Warriors</ime>
+        <kratica>GSW</kratica>
+        <mesto>San Francisco</mesto>
+        <konferenca>West</konferenca>
+    </ekipa>
+
+    <ekipa id="3">
+        <ime>Boston Celtics</ime>
+        <kratica>BOS</kratica>
+        <mesto>Boston</mesto>
+        <konferenca>East</konferenca>
+    </ekipa>
+
+    <ekipa id="4">
+        <ime>New York Knicks</ime>
+        <kratica>NYK</kratica>
+        <mesto>New York</mesto>
+        <konferenca>East</konferenca>
+    </ekipa>
+
+    <ekipa id="5">
+        <ime>Chicago Bulls</ime>
+        <kratica>CHI</kratica>
+        <mesto>Chicago</mesto>
+        <konferenca>East</konferenca>
+    </ekipa>
+
+    <ekipa id="6">
+        <ime>Miami Heat</ime>
+        <kratica>MIA</kratica>
+        <mesto>Miami</mesto>
+        <konferenca>East</konferenca>
+    </ekipa>
+
+    <ekipa id="7">
+        <ime>Dallas Mavericks</ime>
+        <kratica>DAL</kratica>
+        <mesto>Dallas</mesto>
+        <konferenca>West</konferenca>
+    </ekipa>
+
+    <ekipa id="8">
+        <ime>Denver Nuggets</ime>
+        <kratica>DEN</kratica>
+        <mesto>Denver</mesto>
+        <konferenca>West</konferenca>
+    </ekipa>
+
+    <ekipa id="9">
+        <ime>Phoenix Suns</ime>
+        <kratica>PHX</kratica>
+        <mesto>Phoenix</mesto>
+        <konferenca>West</konferenca>
+    </ekipa>
+
+    <ekipa id="10">
+        <ime>Milwaukee Bucks</ime>
+        <kratica>MIL</kratica>
+        <mesto>Milwaukee</mesto>
+        <konferenca>East</konferenca>
+    </ekipa>
+
+    <ekipa id="11">
+        <ime>Cleveland Cavaliers</ime>
+        <kratica>CLE</kratica>
+        <mesto>Cleveland</mesto>
+        <konferenca>East</konferenca>
+    </ekipa>
+
+    <ekipa id="12">
+        <ime>Philadelphia 76ers</ime>
+        <kratica>PHI</kratica>
+        <mesto>Philadelphia</mesto>
+        <konferenca>East</konferenca>
+    </ekipa>
+
+    <ekipa id="13">
+        <ime>Sacramento Kings</ime>
+        <kratica>SAC</kratica>
+        <mesto>Sacramento</mesto>
+        <konferenca>West</konferenca>
+    </ekipa>
+
+    <ekipa id="14">
+        <ime>Toronto Raptors</ime>
+        <kratica>TOR</kratica>
+        <mesto>Toronto</mesto>
+        <konferenca>East</konferenca>
+    </ekipa>
+
+    <ekipa id="15">
+        <ime>Detroit Pistons</ime>
+        <kratica>DET</kratica>
+        <mesto>Detroit</mesto>
+        <konferenca>East</konferenca>
+    </ekipa>
+</ekipe>
