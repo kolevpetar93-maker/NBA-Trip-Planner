@@ -1,10 +1,12 @@
-# NBA Trip Planner – XML in JSON
+# NBA Trip Planner – XML, JSON in Web Parser
 
 ## 1. Opis projekta
 
 NBA Trip Planner je konzolna aplikacija, razvita v programskem jeziku Python, ki omogoča pregled in filtriranje NBA tekem glede na mesto njihovega izvajanja.
 
 Namen projekta je prikazati delo s strukturiranimi podatki XML, povezovanje različnih entitet prek identifikatorjev (ID), deserializacijo podatkov ter izvoz filtriranih rezultatov v formata JSON in XML.
+
+Projekt vključuje tudi spletni razčlenjevalnik (Web Parser), ki samodejno pridobiva podatke o NBA dvoranah s spletne strani HomeAway in jih shranjuje v datoteko JSON.
 
 Podatki o tekmah so demonstracijski in ne predstavljajo uradnega razporeda NBA tekem.
 
@@ -15,7 +17,10 @@ NBA Planner Trip/
 ├── data/
 │   ├── ekipe.xml
 │   ├── dvorane.xml
-│   └── tekme.xml
+│   ├── tekme.xml
+│   └── nba_arenas.json
+├── scraper/
+│   └── arena_parser.py
 ├── main.py
 ├── filtrirano.json
 ├── filtrirano.xml
@@ -62,7 +67,7 @@ Meni omogoča večkratno izvajanje različnih poizvedb brez ponovnega zagona pro
 
 ## 5. Zagon aplikacije
 
-Za izvajanje je potreben Python 3. Dodatne knjižnice niso potrebne, saj aplikacija uporablja standardni knjižnici `json` in `xml.etree.ElementTree`.
+Za izvajanje je potreben Python 3. Za konzolno aplikacijo dodatne knjižnice niso potrebne, saj uporablja standardni knjižnici `json` in `xml.etree.ElementTree`.
 
 V terminalu odpremo glavno mapo projekta in izvedemo:
 
@@ -140,4 +145,60 @@ Ob vsaki novi izbiri možnosti 1 ali 2 se obe izhodni datoteki posodobita. Tako 
 
 ## 8. Namen naloge
 
-Naloga prikazuje uporabo XML dokumentov za shranjevanje strukturiranih podatkov, povezovanje entitet prek identifikatorjev, deserializacijo v Pythonove podatkovne strukture, filtriranje ter izvoz rezultatov v JSON in XML.
+Projekt prikazuje uporabo XML dokumentov za shranjevanje strukturiranih podatkov, povezovanje entitet prek identifikatorjev, deserializacijo v Pythonove podatkovne strukture, filtriranje ter izvoz rezultatov v JSON in XML.
+
+Dodatno vključuje samodejno pridobivanje podatkov s spletnih strani in njihovo shranjevanje za nadaljnjo uporabo.
+
+## 9. Spletni razčlenjevalnik (Web Parser)
+
+Projekt vključuje spletni razčlenjevalnik, razvit v programskem jeziku Python, ki samodejno pridobiva podatke o NBA dvoranah.
+
+Za vir podatkov je bila izbrana spletna stran **HomeAway – NBA Arenas**:
+
+https://homeaway.app/sport/nba/
+
+Spletna stran vsebuje podatke o 30 NBA dvoranah. Izbrana je bila, ker so informacije neposredno povezane s projektom NBA Trip Planner in bodo uporabne pri nadaljnjem razvoju aplikacije.
+
+Razčlenjevalnik uporablja knjižnici `requests` za pridobivanje vsebine spletne strani in `BeautifulSoup` za razčlenjevanje dokumenta HTML.
+
+Program poišče kartice posameznih dvoran in iz njih pridobi naslednje podatke:
+
+- Ime dvorane.
+- NBA ekipo.
+- Leto odprtja.
+- Kapaciteto.
+- Povezavo do podrobnejših informacij.
+
+Pridobljeni podatki se samodejno shranijo v datoteko `data/nba_arenas.json`.
+
+### Primer pridobljenih podatkov
+
+```json
+{
+  "arena": "Madison Square Garden",
+  "team": "New York Knicks",
+  "opened": 1968,
+  "capacity": 19812,
+  "url": "https://homeaway.app/stadiums/madison-square-garden-nba/"
+}
+```
+
+### Zagon razčlenjevalnika
+
+Najprej namestimo potrebni knjižnici:
+
+```bash
+python -m pip install requests beautifulsoup4
+```
+
+Nato v glavni mapi projekta izvedemo:
+
+```bash
+python scraper/arena_parser.py
+```
+
+Program samodejno prebere spletno stran, pridobi podatke o NBA dvoranah in jih shrani v datoteko `nba_arenas.json`.
+
+Če datoteka še ne obstaja, jo program samodejno ustvari. Ob ponovnem zagonu razčlenjevalnik ponovno pridobi podatke in posodobi datoteko.
+
+Spletni razčlenjevalnik je uspešno pridobil podatke o vseh **30 NBA dvoranah**, ki so shranjeni v strukturiranem formatu JSON.

@@ -1,0 +1,212 @@
+[
+    {
+        "arena": "American Airlines Center",
+        "team": "Dallas Mavericks",
+        "opened": 2001,
+        "capacity": 19200,
+        "url": "https://homeaway.app/stadiums/american-airlines-center-nba/"
+    },
+    {
+        "arena": "Ball Arena",
+        "team": "Denver Nuggets",
+        "opened": 1999,
+        "capacity": 19520,
+        "url": "https://homeaway.app/stadiums/ball-arena-nba/"
+    },
+    {
+        "arena": "Barclays Center",
+        "team": "Brooklyn Nets",
+        "opened": 2012,
+        "capacity": 17732,
+        "url": "https://homeaway.app/stadiums/barclays-center-nba/"
+    },
+    {
+        "arena": "Capital One Arena",
+        "team": "Washington Wizards",
+        "opened": 1997,
+        "capacity": 20290,
+        "url": "https://homeaway.app/stadiums/capital-one-arena-nba/"
+    },
+    {
+        "arena": "Chase Center",
+        "team": "Golden State Warriors",
+        "opened": 2019,
+        "capacity": 18064,
+        "url": "https://homeaway.app/stadiums/chase-center-nba/"
+    },
+    {
+        "arena": "Crypto.com Arena",
+        "team": "Los Angeles Lakers",
+        "opened": 1999,
+        "capacity": 18997,
+        "url": "https://homeaway.app/stadiums/crypto-com-arena-nba/"
+    },
+    {
+        "arena": "Delta Center",
+        "team": "Utah Jazz",
+        "opened": 1991,
+        "capacity": 18306,
+        "url": "https://homeaway.app/stadiums/delta-center-nba/"
+    },
+    {
+        "arena": "FedExForum",
+        "team": "Memphis Grizzlies",
+        "opened": 2004,
+        "capacity": 17794,
+        "url": "https://homeaway.app/stadiums/fedexforum-nba/"
+    },
+    {
+        "arena": "Fiserv Forum",
+        "team": "Milwaukee Bucks",
+        "opened": 2018,
+        "capacity": 17385,
+        "url": "https://homeaway.app/stadiums/fiserv-forum-nba/"
+    },
+    {
+        "arena": "Frost Bank Center",
+        "team": "San Antonio Spurs",
+        "opened": 2002,
+        "capacity": 18418,
+        "url": "https://homeaway.app/stadiums/frost-bank-center-nba/"
+    },
+    {
+        "arena": "Gainbridge Fieldhouse",
+        "team": "Indiana Pacers",
+        "opened": 1999,
+        "capacity": 17274,
+        "url": "https://homeaway.app/stadiums/gainbridge-fieldhouse-nba/"
+    },
+    {
+        "arena": "Golden 1 Center",
+        "team": "Sacramento Kings",
+        "opened": 2016,
+        "capacity": 17608,
+        "url": "https://homeaway.app/stadiums/golden-1-center-nba/"
+    },
+    {
+        "arena": "Intuit Dome",
+        "team": "Los Angeles Clippers",
+        "opened": 2024,
+        "capacity": 18000,
+        "url": "https://homeaway.app/stadiums/intuit-dome-nba/"
+    },
+    {
+        "arena": "Kaseya Center",
+        "team": "Miami Heat",
+        "opened": 1999,
+        "capacity": 19600,
+        "url": "https://homeaway.app/stadiums/kaseya-center-nba/"
+    },
+    {
+        "arena": "Kia Center",
+        "team": "Orlando Magic",
+        "opened": 2010,
+        "capacity": 18846,
+        "url": "https://homeaway.app/stadiums/kia-center-nba/"
+    },
+    {
+        "arena": "Little Caesars Arena",
+        "team": "Detroit Pistons",
+        "opened": 2017,
+        "capacity": 20332,
+        "url": "https://homeaway.app/stadiums/little-caesars-arena-nba/"
+    },
+    {
+        "arena": "Madison Square Garden",
+        "team": "New York Knicks",
+        "opened": 1968,
+        "capacity": 19812,
+        "url": "https://homeaway.app/stadiums/madison-square-garden-nba/"
+    },
+    {
+        "arena": "Moda Center",
+        "team": "Portland Trail Blazers",
+        "opened": 1995,
+        "capacity": 19393,
+        "url": "https://homeaway.app/stadiums/moda-center-nba/"
+    },
+    {
+        "arena": "Mortgage Matchup Center",
+        "team": "Phoenix Suns",
+        "opened": 1992,
+        "capacity": 17071,
+        "url": "https://homeaway.app/stadiums/mortgage-matchup-center-nba/"
+    },
+    {
+        "arena": "Paycom Center",
+        "team": "Oklahoma City Thunder",
+        "opened": 2002,
+        "capacity": 18203,
+        "url": "https://homeaway.app/stadiums/paycom-center-nba/"
+    },
+    {
+        "arena": "Rocket Arena",
+        "team": "Cleveland Cavaliers",
+        "opened": 1994,
+        "capacity": 19432,
+        "url": "https://homeaway.app/stadiums/rocket-arena-nba/"
+    },
+    {
+        "arena": "Scotiabank Arena",
+        "team": "Toronto Raptors",
+        "opened": 1999,
+        "capacity": 19800,
+        "url": "https://homeaway.app/stadiums/scotiabank-arena-nba/"
+    },
+    {
+        "arena": "Smoothie King Center",
+        "team": "New Orleans Pelicans",
+        "opened": 1999,
+        "capacity": 16867,
+        "url": "https://homeaway.app/stadiums/smoothie-king-center-nba/"
+    },
+    {
+        "arena": "Spectrum Center",
+        "team": "Charlotte Hornets",
+        "opened": 2005,
+        "capacity": 19026,
+        "url": "https://homeaway.app/stadiums/spectrum-center-nba/"
+    },
+    {
+        "arena": "State Farm Arena",
+        "team": "Atlanta Hawks",
+        "opened": 1999,
+        "capacity": 17608,
+        "url": "https://homeaway.app/stadiums/state-farm-arena-nba/"
+    },
+    {
+        "arena": "Target Center",
+        "team": "Minnesota Timberwolves",
+        "opened": 1990,
+        "capacity": 18798,
+        "url": "https://homeaway.app/stadiums/target-center-nba/"
+    },
+    {
+        "arena": "TD Garden",
+        "team": "Boston Celtics",
+        "opened": 1995,
+        "capacity": 19156,
+        "url": "https://homeaway.app/stadiums/td-garden-nba/"
+    },
+    {
+        "arena": "Toyota Center",
+        "team": "Houston Rockets",
+        "opened": 2003,
+        "capacity": 18043,
+        "url": "https://homeaway.app/stadiums/toyota-center-nba/"
+    },
+    {
+        "arena": "United Center",
+        "team": "Chicago Bulls",
+        "opened": 1994,
+        "capacity": 20917,
+        "url": "https://homeaway.app/stadiums/united-center-nba/"
+    },
+    {
+        "arena": "Xfinity Mobile Arena",
+        "team": "Philadelphia 76ers",
+        "opened": 1996,
+        "capacity": 21000,
+        "url": "https://homeaway.app/stadiums/xfinity-mobile-arena-nba/"
+    }
+]
