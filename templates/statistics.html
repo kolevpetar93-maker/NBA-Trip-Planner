@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Travel Statistics | NBA Trip Planner</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/statistics.css') }}"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script
+      src="{{ url_for('static', filename='js/statistics.js') }}"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>NBA Trip Planner</h1>
+        <p>Travel Statistics Dashboard</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="intro">
+        <h2>Tourism Statistics</h2>
+        <p>
+          Explore tourism travel trends based on official Slovenian statistical
+          data from PC-Axis.
+        </p>
+      </section>
+
+      <section class="filters">
+        <h2>Filter Statistics</h2>
+
+        <div class="filter-grid">
+          <div class="filter-group">
+            <label for="destination">Destination</label>
+            <select id="destination"></select>
+          </div>
+
+          <div class="filter-group">
+            <label for="age">Age Group</label>
+            <select id="age"></select>
+          </div>
+
+          <div class="filter-group">
+            <label for="tripType">Trip Type</label>
+            <select id="tripType"></select>
+          </div>
+
+          <div class="filter-group">
+            <label for="measure">Measure</label>
+            <select id="measure"></select>
+          </div>
+        </div>
+      </section>
+
+      <section class="chart-section">
+        <h2>Travel Trends by Year</h2>
+
+        <p id="status">Loading statistics...</p>
+
+        <div class="chart-container">
+          <canvas id="tourismChart"></canvas>
+        </div>
+      </section>
+
+      <footer>
+        <p>Source: Statistical Office of the Republic of Slovenia (SURS)</p>
+      </footer>
+    </main>
+  </body>
+</html>
