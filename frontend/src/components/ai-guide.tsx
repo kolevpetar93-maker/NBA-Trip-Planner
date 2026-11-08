@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { FormEvent } from "react";
 
-// Ta tip se ujema s Python razredom GuideResponse v backend/llm.py.
 interface GuideResponse {
   summary: string;
   facts: string[];
