@@ -1,0 +1,13 @@
+.git
+.venv
+**/__pycache__
+**/node_modules
+**/dist
+**/config.local.json
+.env
+.env.*
+.preview
+docs
+templates
+static
+*.log
