@@ -83,8 +83,8 @@ export default function AIGuide() {
           <p className="eyebrow">A LITTLE GUIDANCE. A BETTER GAME NIGHT.</p>
           <h1>Your courtside companion.</h1>
           <p>
-            Ask about your team, explore an arena, or prepare for your next NBA
-            visit.
+            Ask about basketball, team history, players or rules, get game
+            suggestions, or plan your next NBA visit.
           </p>
         </div>
         <span className="provider-badge">
@@ -105,7 +105,7 @@ export default function AIGuide() {
             <fieldset disabled={loading} className="context-fields">
               <legend className="visually-hidden">Question context</legend>
               <div className="field">
-                <label htmlFor="team">Your team</label>
+                <label htmlFor="team">Team context</label>
                 <select
                   id="team"
                   value={team}
@@ -173,7 +173,7 @@ export default function AIGuide() {
               <span aria-hidden="true">✦</span>
               <div>
                 <h2 id="chat-title">AI Guide</h2>
-                <p>NBA knowledge. Your next adventure.</p>
+                <p>Basketball questions. Game-day ideas.</p>
               </div>
             </div>
             <button
@@ -193,7 +193,7 @@ export default function AIGuide() {
             {loading ? (
               <div className="thinking" role="status">
                 <span aria-hidden="true">✦</span>
-                <p>Preparing your game night guide…</p>
+                <p>Preparing your answer…</p>
               </div>
             ) : answer ? (
               <div className="answer">
@@ -212,7 +212,7 @@ export default function AIGuide() {
                 )}
                 {answer.recommendations.length > 0 && (
                   <section>
-                    <h3>For your visit</h3>
+                    <h3>Suggestions</h3>
                     <ul>
                       {answer.recommendations.map((tip, index) => (
                         <li key={index}>{tip}</li>
@@ -227,21 +227,23 @@ export default function AIGuide() {
                   ✦
                 </span>
                 <p className="eyebrow">WELCOME TO YOUR AI GUIDE</p>
-                <h3>Where will the game take you?</h3>
+                <h3>What would you like to know?</h3>
                 <p>
-                  Choose your team, add a little context and ask a question.
+                  Ask any basketball question. Add team or visit context if useful.
                   <br />
-                  Your next great game night starts here.
+                  Explore teams, players, rules, history and game-day ideas.
                 </p>
                 <div className="suggestions">
                   <button
                     type="button"
                     onClick={() =>
-                      setQuestion(`Tell me about ${team} and their home arena.`)
+                      setQuestion(
+                        `Tell me about the history of ${team} and their most memorable players.`,
+                      )
                     }
                   >
-                    <strong>Get to know your team</strong>What makes their home
-                    arena special?
+                    <strong>Get to know your team</strong>Explore their history
+                    and memorable players.
                   </button>
                   <button
                     type="button"
@@ -272,7 +274,7 @@ export default function AIGuide() {
                 id="question"
                 value={question}
                 onChange={(event) => setQuestion(event.target.value)}
-                placeholder="Ask about a team, an arena, or your next NBA visit…"
+                placeholder="Ask about teams, players, rules, history, which game to watch, or an NBA visit…"
                 rows={3}
                 minLength={3}
                 maxLength={2000}
